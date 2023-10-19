@@ -907,7 +907,7 @@
 // brush 99
 {
 ( -1408 1728 208 ) ( -1408 1729 208 ) ( -1408 1728 209 ) 128_brown_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1408 1840 208 ) ( -1408 1840 209 ) ( -1407 1840 208 ) 128_brown_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1408 1424 208 ) ( -1408 1424 209 ) ( -1407 1424 208 ) 128_brown_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -1408 1728 208 ) ( -1407 1728 208 ) ( -1408 1729 208 ) 128_brown_2 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( -1152 1760 240 ) ( -1152 1761 240 ) ( -1151 1760 240 ) 128_brown_2 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( -1152 2128 224 ) ( -1151 2128 224 ) ( -1152 2128 225 ) 128_brown_2 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -1865,12 +1865,12 @@
 }
 // brush 206
 {
-( -1296 1328 368 ) ( -1296 1329 368 ) ( -1296 1328 369 ) 128_brown_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1488 1440 368 ) ( -1488 1440 369 ) ( -1487 1440 368 ) 128_brown_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1488 1328 432 ) ( -1487 1328 432 ) ( -1488 1329 432 ) 128_brown_2 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -1232 1360 480 ) ( -1232 1361 480 ) ( -1231 1360 480 ) 128_brown_2 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -1232 1616 384 ) ( -1231 1616 384 ) ( -1232 1616 385 ) 128_brown_2 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1152 1360 384 ) ( -1152 1360 385 ) ( -1152 1361 384 ) 128_brown_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1296 1824 240 ) ( -1296 1552 512 ) ( -1296 1424 512 ) 128_brown_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1296 1424 512 ) ( -1152 1424 512 ) ( -1152 1424 240 ) 128_brown_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1152 1424 240 ) ( -1152 1824 240 ) ( -1296 1824 240 ) 128_brown_2 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -1296 1552 448 ) ( -1152 1552 448 ) ( -1152 1424 448 ) 128_brown_2 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -1296 1824 240 ) ( -1152 1824 240 ) ( -1152 1552 512 ) 128_brown_2 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1152 1552 512 ) ( -1152 1824 240 ) ( -1152 1424 240 ) 128_brown_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 // brush 207
 {
@@ -2335,25 +2335,20 @@
 }
 // entity 20
 {
-"classname" "item_shells"
-"origin" "3296 2784 112"
+"classname" "item_rockets"
+"origin" "1168 -256 104"
 }
 // entity 21
 {
 "classname" "item_rockets"
-"origin" "1168 -256 104"
+"origin" "2448 2848 120"
 }
 // entity 22
 {
 "classname" "item_rockets"
-"origin" "2448 2848 120"
-}
-// entity 23
-{
-"classname" "item_rockets"
 "origin" "2480 2848 120"
 }
-// entity 24
+// entity 23
 {
 "classname" "trigger_hurt"
 "dmg" "1000"
@@ -2367,7 +2362,7 @@
 ( -368 960 -496 ) ( -368 959 -496 ) ( -368 960 -495 ) void [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 25
+// entity 24
 {
 "classname" "trigger_hurt"
 "dmg" "1000"
@@ -2381,7 +2376,7 @@
 ( -160 1152 -496 ) ( -160 1151 -496 ) ( -160 1152 -495 ) void [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 26
+// entity 25
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -2394,17 +2389,17 @@
 ( -1072 960 16 ) ( -1072 959 16 ) ( -1072 960 17 ) 128_cyan_1 [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 27
+// entity 26
 {
 "classname" "weapon_lightning"
 "origin" "-1008 1376 560"
 }
-// entity 28
+// entity 27
 {
 "classname" "item_cells"
 "origin" "-1040 1312 560"
 }
-// entity 29
+// entity 28
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -2417,92 +2412,77 @@
 ( 6448 -660 160 ) ( 6448 -661 160 ) ( 6448 -660 161 ) 128_cyan_1 [ 0 0 -1.0000000000000002 0 ] [ 0 1.0000000000000002 0 52 ] 0 1 1
 }
 }
-// entity 30
+// entity 29
 {
 "classname" "item_armorInv"
 "origin" "6656 -272 448"
 }
-// entity 31
+// entity 30
 {
 "classname" "weapon_supershotgun"
 "origin" "6624 -176 448"
 }
-// entity 32
+// entity 31
 {
 "classname" "item_spikes"
 "origin" "4240 800 224"
 }
-// entity 33
+// entity 32
 {
 "classname" "item_spikes"
 "origin" "4320 768 224"
 }
-// entity 34
+// entity 33
 {
 "classname" "item_spikes"
 "origin" "4240 720 224"
 }
-// entity 35
+// entity 34
 {
 "classname" "item_shells"
 "origin" "3952 -304 224"
 }
-// entity 36
+// entity 35
 {
 "classname" "item_shells"
 "origin" "3952 -272 224"
 }
-// entity 37
+// entity 36
 {
 "classname" "item_health"
 "origin" "-320 -352 112"
 }
-// entity 38
+// entity 37
 {
 "classname" "item_shells"
 "origin" "720 -16 352"
 }
-// entity 39
-{
-"classname" "item_shells"
-"origin" "240 2144 112"
-}
-// entity 40
-{
-"classname" "item_shells"
-"origin" "192 2144 112"
-}
-// entity 41
+// entity 38
 {
 "classname" "item_health"
 "origin" "144 2176 112"
 }
-// entity 42
+// entity 39
 {
 "classname" "item_shells"
-"origin" "1248 2160 112"
+"origin" "1216 2160 112"
 }
-// entity 43
-{
-"classname" "item_shells"
-"origin" "1184 2160 112"
-}
-// entity 44
+// entity 40
 {
 "classname" "item_health"
-"origin" "1216 2224 112"
+"origin" "1168 2176 112"
 }
-// entity 45
+// entity 41
 {
 "classname" "weapon_grenadelauncher"
 "origin" "2608 2848 112"
 }
-// entity 46
+// entity 42
 {
 "classname" "item_health"
 "origin" "3712 1728 112"
 }
-// entity 47
+// entity 43
 {
 "classname" "func_wall"
 // brush 0
@@ -2515,42 +2495,42 @@
 ( 1232 -416 104 ) ( 1232 -416 288 ) ( 1232 143.57294154251758 300.7536336531739 ) 128_cyan_3 [ 0 -1.0000000000000002 0 38 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 48
+// entity 44
 {
 "classname" "item_cells"
 "origin" "-992 1312 560"
 }
-// entity 49
+// entity 45
 {
 "classname" "item_health"
 "origin" "1200 -96 352"
 }
-// entity 50
+// entity 46
 {
 "classname" "item_health"
 "origin" "1152 -96 352"
 }
-// entity 51
+// entity 47
 {
 "classname" "weapon_nailgun"
 "origin" "1040 416 400"
 }
-// entity 52
+// entity 48
 {
 "classname" "item_spikes"
-"origin" "3712 2704 408"
+"origin" "3312 2816 152"
 }
-// entity 53
+// entity 49
 {
 "classname" "item_health"
 "origin" "2400 2704 160"
 }
-// entity 54
+// entity 50
 {
 "classname" "info_player_deathmatch"
 "origin" "2944 96 128"
 }
-// entity 55
+// entity 51
 {
 "classname" "func_illusionary"
 // brush 0
@@ -2563,7 +2543,7 @@
 ( -352 -848 16 ) ( -352 -848 17 ) ( -352 -847 16 ) sky1 [ 0 0 1.0000000000000002 0 ] [ 0 -1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 56
+// entity 52
 {
 "classname" "func_illusionary"
 // brush 0
@@ -2576,7 +2556,7 @@
 ( -368 -304 16 ) ( -368 -305 16 ) ( -368 -304 17 ) sky_blue_3 [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 57
+// entity 53
 {
 "classname" "func_illusionary"
 // brush 0
@@ -2589,7 +2569,7 @@
 ( -944 1360 32 ) ( -944 1359 32 ) ( -944 1360 33 ) sky_blue_3 [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 58
+// entity 54
 {
 "classname" "func_illusionary"
 // brush 0
@@ -2602,7 +2582,7 @@
 ( -928 1376 16 ) ( -928 1375 16 ) ( -928 1376 17 ) sky_blue_3 [ 0 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 59
+// entity 55
 {
 "classname" "func_illusionary"
 // brush 0
@@ -2615,7 +2595,7 @@
 ( -944 1568 144 ) ( -944 1567 144 ) ( -944 1568 145 ) sky_blue_3 [ 0 0 -1.0000000000000002 0 ] [ 0 1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 60
+// entity 56
 {
 "classname" "func_illusionary"
 // brush 0
@@ -2626,32 +2606,5 @@
 ( -800 1920 800 ) ( -800 1488 800 ) ( -928 1488 800 ) sky_blue_3 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
 ( -800 1664 16 ) ( -799 1664 16 ) ( -800 1664 17 ) sky_blue_3 [ 1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 ( -944 2016 144 ) ( -944 2015 144 ) ( -944 2016 145 ) sky_blue_3 [ 0 0 -1.0000000000000002 0 ] [ 0 1.0000000000000002 0 0 ] 0 1 1
-}
-}
-// entity 61
-{
-"classname" "path_corner"
-"origin" "-1224 1736 264"
-"targetname" "path1"
-"target" "path2"
-}
-// entity 62
-{
-"classname" "path_corner"
-"origin" "-1224 1720 520"
-"targetname" "path2"
-"target" "path1"
-}
-// entity 63
-{
-"classname" "func_train"
-// brush 0
-{
-( -1264 1504 256 ) ( -1264 1505 256 ) ( -1264 1504 257 ) 128_brown_2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1440 1616 256 ) ( -1440 1616 257 ) ( -1439 1616 256 ) 128_brown_2 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1440 1504 320 ) ( -1439 1504 320 ) ( -1440 1505 320 ) 128_brown_2 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -1184 1536 384 ) ( -1184 1537 384 ) ( -1183 1536 384 ) 128_brown_2 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -1184 1792 272 ) ( -1183 1792 272 ) ( -1184 1792 273 ) 128_brown_2 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1184 1536 272 ) ( -1184 1536 273 ) ( -1184 1537 272 ) 128_brown_2 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
