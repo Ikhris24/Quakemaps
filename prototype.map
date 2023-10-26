@@ -3194,7 +3194,7 @@
 // entity 1
 {
 "classname" "info_player_start"
-"origin" "218 -522 150.625"
+"origin" "218 -522 168.625"
 "angle" "90"
 }
 // entity 2
@@ -3443,7 +3443,7 @@
 // entity 41
 {
 "classname" "info_player_deathmatch"
-"origin" "2944 96 161.625"
+"origin" "2937 120 161.625"
 }
 // entity 42
 {
@@ -3677,4 +3677,21 @@
 "classname" "item_armor2"
 "origin" "5600 3488 132"
 "angle" "180"
+}
+// entity 77
+{
+"classname" "info_player_deathmatch"
+"origin" "1890 132 165.375"
+}
+// entity 78
+{
+"classname" "info_player_deathmatch"
+"origin" "5754 318 270"
+"angle" "180"
+}
+// entity 79
+{
+"classname" "info_player_deathmatch"
+"origin" "5000 3609 163.25"
+"angle" "270"
 }
