@@ -5250,39 +5250,32 @@
 // entity 127
 {
 "classname" "light"
-"origin" "-1084 2242.5 234.625"
+"origin" "-894 2295.5 234.625"
 "wait" "0.5"
 "delay" "4"
 }
 // entity 128
 {
 "classname" "light"
-"origin" "-894 2295.5 234.625"
+"origin" "275.5 2305.5 277.625"
 "wait" "0.5"
 "delay" "4"
 }
 // entity 129
 {
 "classname" "light"
-"origin" "275.5 2305.5 277.625"
+"origin" "559.5 2268 277.625"
 "wait" "0.5"
 "delay" "4"
 }
 // entity 130
 {
 "classname" "light"
-"origin" "559.5 2268 277.625"
-"wait" "0.5"
-"delay" "4"
-}
-// entity 131
-{
-"classname" "light"
 "origin" "6245.5 364.75 354"
 "style" "2"
 "delay" "4"
 }
-// entity 132
+// entity 131
 {
 "classname" "light"
 "origin" "3143.5 2360.5 423.875"
@@ -5291,24 +5284,24 @@
 "delay" "5"
 "light" "260"
 }
-// entity 133
+// entity 132
 {
 "classname" "item_spikes"
 "origin" "6100.75 349.25 236"
 }
-// entity 134
+// entity 133
 {
 "classname" "item_spikes"
 "origin" "6122.52 296.875 236"
 }
-// entity 135
+// entity 134
 {
 "classname" "light"
 "origin" "1005.25 1149.48 352.625"
 "wait" "0.5"
 "delay" "4"
 }
-// entity 136
+// entity 135
 {
 "classname" "light"
 "origin" "-811.62 -419.25 549"
@@ -5316,38 +5309,38 @@
 "delay" "4"
 "style" "2"
 }
-// entity 137
+// entity 136
 {
 "classname" "light"
 "origin" "-1512.74 1479.12 385.75"
 "wait" "0.5"
 "delay" "4"
 }
-// entity 138
+// entity 137
 {
 "classname" "item_shells"
 "origin" "-286 871 134"
 }
-// entity 139
+// entity 138
 {
 "classname" "item_shells"
 "origin" "-247 906 134"
 }
-// entity 140
+// entity 139
 {
 "classname" "light"
 "origin" "1032 1858.86 245.625"
 "wait" "0.5"
 "delay" "4"
 }
-// entity 141
+// entity 140
 {
 "classname" "light"
 "origin" "16 1706.86 197.625"
 "wait" "0.5"
 "delay" "4"
 }
-// entity 142
+// entity 141
 {
 "classname" "light"
 "origin" "5829.25 191 311"
@@ -5356,7 +5349,7 @@
 "delay" "5"
 "style" "0"
 }
-// entity 143
+// entity 142
 {
 "classname" "light"
 "origin" "-828.62 1144.75 549"
@@ -5364,55 +5357,55 @@
 "delay" "4"
 "style" "2"
 }
-// entity 144
+// entity 143
 {
 "classname" "item_shells"
 "origin" "-2722 2337 209"
 }
-// entity 145
+// entity 144
 {
 "classname" "item_spikes"
 "origin" "-2726 1062 208"
 }
-// entity 146
+// entity 145
 {
 "classname" "item_rockets"
 "origin" "-2712 1201 208"
 }
-// entity 147
+// entity 146
 {
 "classname" "item_shells"
 "origin" "-1401 -405 208"
 }
-// entity 148
+// entity 147
 {
 "classname" "item_cells"
 "origin" "-1206 498 208"
 }
-// entity 149
+// entity 148
 {
 "classname" "light"
 "origin" "3443 213 239.375"
 "delay" "4"
 }
-// entity 150
+// entity 149
 {
 "classname" "item_health"
 "origin" "1715 125 131.375"
 }
-// entity 151
+// entity 150
 {
 "classname" "item_spikes"
 "origin" "2032 320 123.375"
 }
-// entity 152
+// entity 151
 {
 "classname" "light"
 "origin" "1624.78 2297.61 226.625"
 "wait" "0.5"
 "delay" "4"
 }
-// entity 153
+// entity 152
 {
 "classname" "light"
 "origin" "2588.14 2715.51 423.875"
@@ -5421,7 +5414,7 @@
 "delay" "5"
 "light" "260"
 }
-// entity 154
+// entity 153
 {
 "classname" "light"
 "origin" "3605.51 2806.01 528.375"
@@ -5430,20 +5423,20 @@
 "delay" "5"
 "light" "260"
 }
-// entity 155
+// entity 154
 {
 "classname" "light"
 "origin" "-1548.39 29.75 509.125"
 "wait" "1"
 }
-// entity 156
+// entity 155
 {
 "classname" "light"
 "origin" "-1430.39 503.63 675.375"
 "wait" "3"
 "delay" "5"
 }
-// entity 157
+// entity 156
 {
 "classname" "light"
 "origin" "-2633.51 984.75 676.75"
@@ -5451,7 +5444,7 @@
 "style" "0"
 "delay" "4"
 }
-// entity 158
+// entity 157
 {
 "classname" "light"
 "origin" "-834.27 96.875 628.25"
@@ -5459,7 +5452,7 @@
 "delay" "4"
 "style" "0"
 }
-// entity 159
+// entity 158
 {
 "classname" "light"
 "origin" "-1072.01 103.75 628.25"
@@ -5467,17 +5460,31 @@
 "delay" "4"
 "style" "0"
 }
-// entity 160
+// entity 159
 {
 "classname" "light"
 "origin" "-1190.61 705.125 697.125"
 "wait" "1"
 "delay" "3"
 }
-// entity 161
+// entity 160
 {
 "classname" "light"
 "origin" "-1531.02 1095.76 675.375"
+"wait" "3"
+"delay" "4"
+}
+// entity 161
+{
+"classname" "light"
+"origin" "-1253.77 2125.51 360.25"
+"wait" "3"
+"delay" "4"
+}
+// entity 162
+{
+"classname" "light"
+"origin" "-990.125 2228.64 253.5"
 "wait" "3"
 "delay" "4"
 }
