@@ -5440,7 +5440,8 @@
 {
 "classname" "light"
 "origin" "-1430.39 503.63 675.375"
-"wait" "1"
+"wait" "3"
+"delay" "5"
 }
 // entity 157
 {
@@ -5448,5 +5449,35 @@
 "origin" "-2633.51 984.75 676.75"
 "wait" "1"
 "style" "0"
-"delay" "2"
+"delay" "4"
+}
+// entity 158
+{
+"classname" "light"
+"origin" "-834.27 96.875 628.25"
+"wait" "3"
+"delay" "4"
+"style" "0"
+}
+// entity 159
+{
+"classname" "light"
+"origin" "-1072.01 103.75 628.25"
+"wait" "3"
+"delay" "4"
+"style" "0"
+}
+// entity 160
+{
+"classname" "light"
+"origin" "-1190.61 705.125 697.125"
+"wait" "1"
+"delay" "3"
+}
+// entity 161
+{
+"classname" "light"
+"origin" "-1531.02 1095.76 675.375"
+"wait" "3"
+"delay" "4"
 }
